@@ -1,0 +1,26 @@
+{
+  "name": "alcabot",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node -r @babel/register unBotConlaRemeraDeGreenPeace/trainer.js train",
+    "predict": "node -r @babel/register unBotConlaRemeraDeGreenPeace/trainer.js predict",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "^1.7.0",
+    "synaptic": "^1.1.4"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.10.3",
+    "@babel/plugin-proposal-class-properties": "^7.10.1",
+    "@babel/preset-env": "^7.10.3",
+    "@babel/preset-es2016": "^7.0.0-beta.53",
+    "@babel/register": "^7.10.3",
+    "prettier": "^1"
+  }
+}
